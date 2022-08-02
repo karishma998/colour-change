@@ -1,0 +1,16 @@
+<h2>Welcome</h2>
+
+<div *ngFor='let v of dynData' [attr.id]="v.dynId" [ngStyle]="{'background-color': v.color}">
+    {{ v.content }} // Display page here
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<h2>Hi There</h2>
+
+<div id="a123">Start coding</div>
+<div id="b456">Now</div>
+<div id="c789">Just do it!</div>
+
